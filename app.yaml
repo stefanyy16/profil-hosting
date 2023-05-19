@@ -2,12 +2,10 @@ runtime: python39
 instance_class: F2
 
 handlers:
-  - url: /index
-    static_files: static/index.html
+  - url: index.html
     upload: static/index.html
     static_dir: static
 
-  - url: /project
-    static_files: static/projects.html
+  - url: project.html
     upload: static/projects.html
     static_dir: static
