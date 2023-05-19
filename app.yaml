@@ -3,12 +3,11 @@ instance_class: F2
 
 handlers:
   - url: /index
-    static_files: index.html
-    upload: index.html
+    static_files: static/index.html
+    upload: static/index.html
+    static_dir: static
 
-  - url: /projects
-    static_files: projects.html
-    upload: projects.html
-
-  - url: /resume
-    upload: resume.html
+  - url: /project
+    static_files: static/projects.html
+    upload: static/projects.html
+    static_dir: static
