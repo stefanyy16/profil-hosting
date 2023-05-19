@@ -6,6 +6,6 @@ handlers:
     upload: static/index.html
     static_dir: static
 
-  - url: project.html
+  - url: projects.html
     upload: static/projects.html
     static_dir: static
